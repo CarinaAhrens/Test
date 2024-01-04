@@ -368,7 +368,7 @@ footer {
     flex-basis: 2500px;
     float: right;
     padding: 20px;
-    flex-shrink: 2;
+    flex-shrink: 1;
     box-sizing: content-box;
     min-height: auto;
     color: #000000;
