@@ -363,7 +363,6 @@ footer {
 	float: left;
 	width: 56%;
 	margin-right: 2%;
-	background: #3f90ae;
 	height: 800px;
 }
 
@@ -371,14 +370,12 @@ footer {
 	float: left;
 	width: 20%;
 	margin-right: 2%;
-	background: #2e6a80;
 	height: 800px;
 }
 
 #sidebar2 {
 	float: left;
 	width: 20%;
-	background: #153a48;
 	height: 800px;
 }
 }*/
