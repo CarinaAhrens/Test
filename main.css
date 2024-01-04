@@ -358,7 +358,7 @@ footer {
   width: 500%;
 }*/
 /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
-@media (max-width: 600px) {
+/*@media (max-width: 600px) {
   #content {
 	float: left;
 	width: 56%;
@@ -381,7 +381,7 @@ footer {
 	background: #153a48;
 	height: 800px;
 }
-}
+}*/
 
 @media only screen and (max-width: 1024px) {
 
