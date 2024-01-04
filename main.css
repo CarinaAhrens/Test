@@ -359,36 +359,28 @@ footer {
 }*/
 /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
 @media (max-width: 600px) {
-  #container {
-	margin: 30px auto;
-	width: 960px;
-  .flex-container {
-    display: flex;
-    display: 3;
-    flex-basis: 2500px;
-    float: right;
-    padding: 20px;
-    flex-shrink: 1;
-    box-sizing: content-box;
-    min-height: auto;
-    color: #000000;
-    /*background: #520188;*/
-    background: #581845 solid;
-    color: #000000; /*neu*/
-  }
+  #content {
+	float: left;
+	width: 56%;
+	margin-right: 2%;
+	background: #3f90ae;
+	height: 800px;
+}
 
-  #Education2 {
-    width: 100%;
-    height: 200px;
-    margin-right: 0;
-    margin-bottom: 2%;
-  }
+#sidebar1 {
+	float: left;
+	width: 20%;
+	margin-right: 2%;
+	background: #2e6a80;
+	height: 800px;
+}
 
-  #Teaching {
-    width: 100%;
-    height: 200px;
-    margin-top: 2%;
-  }
+#sidebar2 {
+	float: left;
+	width: 20%;
+	background: #153a48;
+	height: 800px;
+}
 }
 
 /* Main Body CV*/
