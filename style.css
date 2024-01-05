@@ -1,42 +1,44 @@
 * {
   margin: 0;
   padding: 0;
-  color: white;
 }
 
 #container {
-  margin: 30px auto;
+  margin: 2%;
   width: 960px;
 }
 
 #header {
   width: 100%;
-  background: #80c9e3;
+  background: blue;
   margin-bottom: 2%;
   height: 150px;
 }
 
 #content {
   float: left;
-  width: 56%;
-  margin-right: 2%;
-  background: #3f90ae;
+  width: 33%;
+  margin: 2%;
+  background: red;
   height: 800px;
+  color: #000000;
 }
 
 #sidebar1 {
   float: left;
-  width: 20%;
-  margin-right: 2%;
-  background: #2e6a80;
-  height: 800px;
+  width: 33%;
+  margin: 2%;
+  background: green;
+  /*height: 800px;*/
+  color: #000000;
 }
 
 #sidebar2 {
   float: left;
-  width: 20%;
-  background: #153a48;
-  height: 800px;
+  width: 33%;
+  background: yellow;
+  /*height: 800px;*/
+  color: #000000;
 }
 
 @media only screen and (max-width: 1024px) {
