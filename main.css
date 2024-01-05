@@ -365,6 +365,7 @@ footer {
 	margin-right: 2%;
 	height: 800px;
 }
+#full{ width 100%; }
 
 #sidebar1 {
 	float: left;
@@ -384,6 +385,7 @@ footer {
 
 #container { width:100%; }
 #content { width:78%; }
+#full{ width 100%; }
 
 #sidebar1 {
 	width: 20%;
@@ -404,6 +406,7 @@ footer {
 	margin-right: 0;
 	margin-bottom: 2%;
 }
+#full{ width 100%; }
 
 #sidebar1 {
 	width: 100%;
