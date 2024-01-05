@@ -1,0 +1,36 @@
+<!-- Attribut "Screen" für die Bildschirmansicht -->
+<link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+
+<!-- Attribut "Print" für die Druckausgabe -->
+<link rel="stylesheet" type="text/css" href="print.css" media="print" />
+
+<link type="text/css" rel="stylesheet" media="screen" href="style.css" />
+<link
+  type="text/css"
+  rel="stylesheet"
+  media="only screen and (max-device-width: 480px)"
+  href="iphone.css"
+/>
+
+only screen and (max-device-width: 480px) { body {background:red;} }
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      Websites mit CSS3 Media Queries für iPhone, iPad, Android &amp; Co.
+      optimieren
+    </title>
+    <meta name="viewport" content="width=device-width; initial-scale=1.0;" />
+  </head>
+
+  <body>
+    <div id="container">
+      <div id="header">header</div>
+      <div id="content">content</div>
+      <div id="sidebar1">sidebar 1</div>
+      <div id="sidebar2">sidebar 2</div>
+      <div style="clear: both"></div>
+    </div>
+  </body>
+</html>
